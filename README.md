@@ -22,4 +22,3 @@ docker run -p 8080:8080 MY_IMAGE_ID_FROM_ABOVE
 oc new-app https://github.com/abarcloud/hello-world --strategy=docker
 ```
 Follow the instructions [here](https://docs.abarcloud.com) for more info.
-
