@@ -2,7 +2,7 @@ require 'sinatra'
 
 get '/' do
   puts 'Hello world requested...'
-  @hello = Hello.new("Welcom to AbarCloud.", "Hello World 3!")
+  @hello = Hello.new("Welcom to AbarCloud.", "Hello World 4!")
   erb :index
 end
 
